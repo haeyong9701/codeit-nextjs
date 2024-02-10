@@ -1,5 +1,7 @@
+import styles from "@/styles/Home.module.css";
+
 const Home = () => {
-  return <div>안녕 Next.js</div>;
+  return <h1 className={styles.title}>안녕 Next.js</h1>;
 };
 
 export default Home;
